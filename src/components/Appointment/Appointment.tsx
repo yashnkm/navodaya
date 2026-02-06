@@ -14,10 +14,10 @@ const Appointment = () => {
 
   const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   
-  // Generate hourly time slots from 9 AM to 5 PM
+  // Generate hourly time slots from 6 PM to 9 PM
   const timeSlots = [
-    "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM",
-    "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM"
+    "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM",
+    "8:00 PM", "8:30 PM", "9:00 PM"
   ];
 
   // Generate calendar data
@@ -53,7 +53,7 @@ const Appointment = () => {
         day,
         isPast,
         isToday,
-        isWeekend: date.getDay() === 0 || date.getDay() === 6 // Sunday or Saturday
+        isWeekend: date.getDay() === 0 || date.getDay() === 4 // Sunday or Thursday (holidays)
       });
     }
     
@@ -225,7 +225,7 @@ const Appointment = () => {
                 {/* Time Slots */}
                 <div>
                   <p className="text-sm font-medium text-oxford-blue-1 mb-3">
-                    Available Times (9 AM - 5 PM)
+                    Available Times (6 PM - 9 PM)
                   </p>
                   <div className="grid grid-cols-2 gap-2">
                     {timeSlots.map((time) => (

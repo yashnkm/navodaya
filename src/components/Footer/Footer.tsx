@@ -183,7 +183,7 @@ const Footer = () => {
                       </svg>
                     </div>
                     <div className="text-gray-400 text-sm">
-                      Mon - Sat: 9:00 AM - 10:00 PM
+                      Mon-Sat: 6:00 PM - 9:00 PM (Closed Thu & Sun)
                     </div>
                   </div>
                 </div>
