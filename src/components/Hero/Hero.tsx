@@ -59,23 +59,9 @@ const Hero = () => {
 
           {/* ===== MOBILE LAYOUT ===== */}
           <div className="lg:hidden flex flex-col items-center pt-24 pb-10 gap-6">
-            {/* Doctor Image - Top */}
-            <div
-              ref={imageRef}
-              className="opacity-0"
-            >
-              <img
-                className="w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover object-top shadow-2xl border-4 border-white/20"
-                src="/assets/images/DSC_0560.JPG"
-                alt="Dr. Vishnudas Telbhare"
-                loading="eager"
-              />
-            </div>
-
-            {/* Text Content */}
+            {/* Text Content - Top */}
             <div className="text-white text-center">
               <div
-
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-4 opacity-0"
               >
                 <span className="w-2 h-2 bg-teal-400 rounded-full animate-pulse"></span>
@@ -83,7 +69,6 @@ const Hero = () => {
               </div>
 
               <h1
-
                 className="text-3xl sm:text-4xl font-bold leading-tight mb-3 opacity-0"
               >
                 Breathe Better,
@@ -94,12 +79,27 @@ const Hero = () => {
               </h1>
 
               <p
-
                 className="text-sm sm:text-base text-gray-300 mb-5 max-w-md mx-auto leading-relaxed opacity-0"
               >
                 Expert pulmonary care with Dr. Vishnudas Telbhare.
                 17+ years in asthma, COPD, sleep disorders & critical care.
               </p>
+
+              {/* Stats */}
+              <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto mb-6">
+                <div className="text-center opacity-0">
+                  <div className="text-2xl font-bold text-teal-400 mb-0.5">17+</div>
+                  <div className="text-xs text-gray-400">Years Exp.</div>
+                </div>
+                <div className="text-center opacity-0">
+                  <div className="text-2xl font-bold text-teal-400 mb-0.5">5000+</div>
+                  <div className="text-xs text-gray-400">Patients</div>
+                </div>
+                <div className="text-center opacity-0">
+                  <div className="text-2xl font-bold text-teal-400 mb-0.5">DNB</div>
+                  <div className="text-xs text-gray-400">Jaslok Hospital</div>
+                </div>
+              </div>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 mb-6 justify-center opacity-0">
@@ -119,22 +119,19 @@ const Hero = () => {
                   Explore Services
                 </a>
               </div>
+            </div>
 
-              {/* Stats */}
-              <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto">
-                <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">17+</div>
-                  <div className="text-xs text-gray-400">Years Exp.</div>
-                </div>
-                <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">5000+</div>
-                  <div className="text-xs text-gray-400">Patients</div>
-                </div>
-                <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">DNB</div>
-                  <div className="text-xs text-gray-400">Jaslok Hospital</div>
-                </div>
-              </div>
+            {/* Doctor Image - Rectangular */}
+            <div
+              ref={imageRef}
+              className="w-full px-4 opacity-0"
+            >
+              <img
+                className="w-full h-auto min-h-[350px] sm:min-h-[450px] object-cover object-top rounded-2xl shadow-2xl"
+                src="/assets/images/DSC_0560.JPG"
+                alt="Dr. Vishnudas Telbhare"
+                loading="eager"
+              />
             </div>
           </div>
 
