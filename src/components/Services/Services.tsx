@@ -20,11 +20,11 @@ const COPDIcon = () => (
   </svg>
 );
 
-const SleepApneaIcon = () => (
+const ILDIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-    <path d="M14 10h.01" />
-    <path d="M10 14a2 2 0 0 0 4 0" />
+    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2" />
+    <path d="M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+    <path d="M9 14l2 2 4-4" />
   </svg>
 );
 
@@ -35,21 +35,13 @@ const PFTIcon = () => (
   </svg>
 );
 
-const TBIcon = () => (
+const PneumoniaIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
-    <path d="M12 5v14" />
-    <path d="M5 12h14" />
+    <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
   </svg>
 );
 
-const CriticalCareIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-  </svg>
-);
-
-const BronchoscopyIcon = () => (
+const LungCancerIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
     <circle cx="11" cy="11" r="8" />
     <path d="m21 21-4.3-4.3" />
@@ -58,13 +50,30 @@ const BronchoscopyIcon = () => (
   </svg>
 );
 
-const LungInfectionIcon = () => (
+const PleuralEffusionIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-    <path d="M8 2v4" />
-    <path d="M16 2v4" />
-    <path d="M8 22v-4" />
-    <path d="M16 22v-4" />
-    <path d="M4 10c0-1.5.5-3 2-4s3-1 4-1c0 0 1 0 2 1s2 1 2 1c1 0 2.5 0 4 1s2 2.5 2 4c0 2-1 4-3 5s-4 1.5-5 2c-1-.5-3-1-5-2s-3-3-3-5z" />
+    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+  </svg>
+);
+
+const SleepApneaIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+    <path d="M14 10h.01" />
+    <path d="M10 14a2 2 0 0 0 4 0" />
+  </svg>
+);
+
+const SleepStudyIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <path d="M2 12h4l3-9 4 18 3-9h4" />
+    <path d="M20.354 15.354A9 9 0 018.646 3.646" />
+  </svg>
+);
+
+const CriticalCareIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
   </svg>
 );
 
@@ -104,7 +113,7 @@ const Services = () => {
       id: 'asthma',
       icon: <AsthmaIcon />,
       title: 'Asthma Management',
-      shortTitle: 'Asthma Care',
+      shortTitle: 'Asthma',
       description: 'Comprehensive asthma care at Navodaya Chest Care, where our expert pulmonologist specializes in diagnosing and managing all types of asthma with precision and personalized care. Trust Dr. Vishnudas Telbhare for exceptional asthma treatment tailored to your individual needs.',
       features: [
         'Expert diagnosis and severity assessment.',
@@ -118,7 +127,7 @@ const Services = () => {
       id: 'copd',
       icon: <COPDIcon />,
       title: 'COPD Treatment',
-      shortTitle: 'COPD Care',
+      shortTitle: 'COPD',
       description: 'Expert management of Chronic Obstructive Pulmonary Disease at Navodaya Chest Care. Our comprehensive approach includes medication optimization, pulmonary rehabilitation guidance, and oxygen therapy to improve your quality of life.',
       features: [
         'Advanced COPD staging and assessment.',
@@ -129,24 +138,24 @@ const Services = () => {
       image: 'https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80'
     },
     {
-      id: 'sleep-apnea',
-      icon: <SleepApneaIcon />,
-      title: 'Sleep Apnea Care',
-      shortTitle: 'Sleep Disorders',
-      description: 'Diagnosis and treatment of sleep-related breathing disorders including Obstructive Sleep Apnea. We offer comprehensive sleep studies, CPAP/BiPAP therapy initiation, and ongoing management for better sleep quality.',
+      id: 'ild',
+      icon: <ILDIcon />,
+      title: 'Interstitial Lung Disease',
+      shortTitle: 'ILD',
+      description: 'Specialized diagnosis and treatment of Interstitial Lung Disease (ILD) including pulmonary fibrosis, sarcoidosis, and other diffuse parenchymal lung diseases. Dr. Telbhare provides comprehensive ILD management with advanced diagnostic evaluation and personalized treatment plans.',
       features: [
-        'Comprehensive sleep disorder evaluation.',
-        'Home and lab-based sleep studies.',
-        'CPAP/BiPAP therapy and titration.',
-        'Lifestyle modification guidance.'
+        'HRCT-guided diagnosis and staging.',
+        'Antifibrotic therapy for pulmonary fibrosis.',
+        'Immunosuppressive treatment when indicated.',
+        'Long-term disease monitoring and supportive care.'
       ],
-      image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80'
     },
     {
       id: 'pft',
       icon: <PFTIcon />,
       title: 'Pulmonary Function Tests',
-      shortTitle: 'Lung Testing',
+      shortTitle: 'PFT',
       description: 'State-of-the-art spirometry and pulmonary function testing to accurately assess your lung capacity, diagnose respiratory conditions, and monitor treatment progress with precision diagnostic tools.',
       features: [
         'Advanced spirometry testing.',
@@ -154,21 +163,77 @@ const Services = () => {
         'Diffusion capacity assessment.',
         'Pre and post-bronchodilator studies.'
       ],
-      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80'
     },
     {
-      id: 'tb',
-      icon: <TBIcon />,
-      title: 'Tuberculosis Treatment',
-      shortTitle: 'TB Care',
-      description: 'Complete tuberculosis management including early diagnosis, DOTS therapy supervision, MDR-TB treatment, and contact screening. Our experienced team ensures proper treatment completion and monitoring.',
+      id: 'pneumonia',
+      icon: <PneumoniaIcon />,
+      title: 'Pneumonia Treatment',
+      shortTitle: 'Pneumonia',
+      description: 'Expert diagnosis and treatment of all types of pneumonia including community-acquired, hospital-acquired, and aspiration pneumonia. Our evidence-based approach ensures accurate pathogen identification and targeted antibiotic therapy for optimal recovery.',
       features: [
-        'Early TB detection and diagnosis.',
-        'DOTS therapy supervision.',
-        'MDR-TB specialized treatment.',
-        'Contact tracing and screening.'
+        'Accurate diagnosis with imaging and labs.',
+        'Targeted antibiotic therapy.',
+        'Severe pneumonia and ICU management.',
+        'Post-pneumonia recovery and follow-up.'
       ],
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80'
+    },
+    {
+      id: 'lung-cancer',
+      icon: <LungCancerIcon />,
+      title: 'Lung Cancer',
+      shortTitle: 'Lung Cancer',
+      description: 'Comprehensive lung cancer evaluation, early detection, and coordinated treatment planning. Dr. Telbhare provides expert bronchoscopic evaluation, staging, and works closely with oncology teams to ensure the best treatment outcomes for patients.',
+      features: [
+        'Early detection and screening.',
+        'Bronchoscopic biopsy and diagnosis.',
+        'Staging and treatment coordination.',
+        'Supportive pulmonary care during treatment.'
+      ],
+      image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80'
+    },
+    {
+      id: 'pleural-effusion',
+      icon: <PleuralEffusionIcon />,
+      title: 'Pleural Effusion',
+      shortTitle: 'Pleural Effusion',
+      description: 'Expert management of pleural effusion including diagnostic thoracentesis, pleural fluid analysis, and therapeutic drainage. We identify the underlying cause and provide targeted treatment to prevent recurrence.',
+      features: [
+        'Diagnostic thoracentesis and fluid analysis.',
+        'Therapeutic pleural drainage.',
+        'Identification of underlying cause.',
+        'Intercostal drain and pleurodesis when needed.'
+      ],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80'
+    },
+    {
+      id: 'osa',
+      icon: <SleepApneaIcon />,
+      title: 'Obstructive Sleep Apnea',
+      shortTitle: 'Sleep Apnea',
+      description: 'Diagnosis and treatment of Obstructive Sleep Apnea (OSA) — a condition causing repeated breathing interruptions during sleep. We offer comprehensive evaluation, CPAP/BiPAP therapy initiation, and ongoing management for better sleep quality and health.',
+      features: [
+        'Comprehensive sleep disorder evaluation.',
+        'CPAP/BiPAP therapy and titration.',
+        'Device fitting and compliance support.',
+        'Lifestyle modification guidance.'
+      ],
+      image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80'
+    },
+    {
+      id: 'sleep-study',
+      icon: <SleepStudyIcon />,
+      title: 'Sleep Study',
+      shortTitle: 'Sleep Study',
+      description: 'Comprehensive polysomnography (sleep study) to diagnose sleep apnea, insomnia, restless leg syndrome, and other sleep disorders. Our sleep testing helps identify the exact nature and severity of your sleep condition for targeted treatment.',
+      features: [
+        'Overnight polysomnography testing.',
+        'Home sleep testing options.',
+        'CPAP titration studies.',
+        'Detailed sleep report and analysis.'
+      ],
+      image: 'https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80'
     },
     {
       id: 'critical-care',
@@ -183,34 +248,6 @@ const Services = () => {
         'Weaning protocols and recovery.'
       ],
       image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80'
-    },
-    {
-      id: 'bronchoscopy',
-      icon: <BronchoscopyIcon />,
-      title: 'Bronchoscopy Procedures',
-      shortTitle: 'Bronchoscopy',
-      description: 'Diagnostic and therapeutic bronchoscopy procedures for airway examination, tissue biopsy, and treatment of various lung conditions. Performed with precision and patient comfort as priority.',
-      features: [
-        'Diagnostic airway examination.',
-        'Tissue biopsy and sampling.',
-        'Therapeutic interventions.',
-        'Foreign body removal.'
-      ],
-      image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80'
-    },
-    {
-      id: 'lung-infections',
-      icon: <LungInfectionIcon />,
-      title: 'Lung Infections',
-      shortTitle: 'Infections',
-      description: 'Evidence-based treatment of pneumonia, bronchitis, lung abscess, and other respiratory infections. Our approach combines accurate diagnosis with targeted treatment for optimal recovery.',
-      features: [
-        'Pneumonia diagnosis and treatment.',
-        'Acute and chronic bronchitis care.',
-        'Lung abscess management.',
-        'Post-infection recovery support.'
-      ],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80'
     }
   ];
 
@@ -237,19 +274,19 @@ const Services = () => {
     <section id="service" className="section-padding bg-teal-50/30">
       <div className="container-custom">
         {/* Section Header */}
-        <div className="flex items-start justify-between mb-10">
+        <div className="flex items-start justify-between mb-6 sm:mb-10">
           <div>
-            <p className="text-teal-600 font-lato font-medium text-lg mb-1 relative inline-block">
+            <p className="text-teal-600 font-lato font-medium text-base sm:text-lg mb-1 relative inline-block">
               Our Services
               <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-teal-600"></span>
             </p>
-            <h2 className="font-montserrat font-bold text-3xl md:text-4xl text-oxford-blue-1 mt-3">
+            <h2 className="font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl text-oxford-blue-1 mt-3">
               What We Offer
             </h2>
           </div>
 
-          {/* Navigation Arrows */}
-          <div className="flex items-center gap-2">
+          {/* Navigation Arrows - Desktop only (controls tab carousel) */}
+          <div className="hidden md:flex items-center gap-2">
             <button
               onClick={handlePrevious}
               disabled={startIndex === 0}
@@ -275,8 +312,8 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Service Tabs */}
-        <div className="flex flex-wrap gap-3 mb-10">
+        {/* Service Tabs - Desktop */}
+        <div className="hidden md:flex flex-wrap gap-3 mb-10">
           {visibleServices.map((service, index) => {
             const actualIndex = startIndex + index;
             const isActive = activeService === actualIndex;
@@ -301,25 +338,49 @@ const Services = () => {
         </div>
 
         {/* Mobile Tab Selector */}
-        <div className="md:hidden mb-8">
-          <select
-            value={activeService}
-            onChange={(e) => setActiveService(Number(e.target.value))}
-            className="w-full p-4 border-2 border-gray-200 rounded-lg text-oxford-blue-1 font-medium focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20"
-          >
-            {services.map((service, index) => (
-              <option key={service.id} value={index}>
-                {service.title}
-              </option>
-            ))}
-          </select>
+        <div className="md:hidden mb-6">
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setActiveService(prev => Math.max(0, prev - 1))}
+              disabled={activeService === 0}
+              className={`w-10 h-10 rounded-full border-2 flex-shrink-0 flex items-center justify-center transition-all duration-200 ${
+                activeService === 0
+                  ? 'border-gray-200 text-gray-300 cursor-not-allowed'
+                  : 'border-gray-300 text-gray-600 active:border-teal-600 active:text-teal-600'
+              }`}
+            >
+              <ChevronLeft />
+            </button>
+            <select
+              value={activeService}
+              onChange={(e) => setActiveService(Number(e.target.value))}
+              className="flex-1 p-3 border-2 border-gray-200 rounded-lg text-oxford-blue-1 font-medium focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20 text-sm"
+            >
+              {services.map((service, index) => (
+                <option key={service.id} value={index}>
+                  {service.title}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={() => setActiveService(prev => Math.min(services.length - 1, prev + 1))}
+              disabled={activeService === services.length - 1}
+              className={`w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center transition-all duration-200 ${
+                activeService === services.length - 1
+                  ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                  : 'bg-teal-600 text-white active:bg-teal-700'
+              }`}
+            >
+              <ChevronRight />
+            </button>
+          </div>
         </div>
 
         {/* Service Content */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-0">
             {/* Image Section */}
-            <div className="relative h-64 lg:h-auto lg:min-h-[400px] bg-gray-100">
+            <div className="relative h-48 sm:h-64 lg:h-auto lg:min-h-[400px] bg-gray-100">
               <img
                 src={currentService.image}
                 alt={currentService.title}
@@ -334,7 +395,7 @@ const Services = () => {
             </div>
 
             {/* Content Section */}
-            <div className="p-8 lg:p-10">
+            <div className="p-5 sm:p-8 lg:p-10">
               <h3 className="font-montserrat font-bold text-2xl md:text-3xl text-oxford-blue-1 mb-4">
                 {currentService.title}
               </h3>

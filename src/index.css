@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 /* Animation classes for Hero section */
@@ -71,7 +71,7 @@ html {
 }
 
 .section-padding {
-  @apply py-16 px-6;
+  @apply py-10 sm:py-16 px-4 sm:px-6;
 }
 
 .container-custom {

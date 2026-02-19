@@ -8,7 +8,7 @@ const AboutPage = () => {
 
       {/* Hero Section with Breadcrumb */}
       <section
-        className="relative py-24 bg-gradient-to-r from-teal-700 to-teal-900"
+        className="relative py-16 sm:py-24 bg-gradient-to-r from-teal-700 to-teal-900"
       >
         <div className="container-custom text-center text-white">
           <nav className="mb-6">
@@ -24,14 +24,14 @@ const AboutPage = () => {
               <li className="text-teal-300">About Us</li>
             </ol>
           </nav>
-          <h1 className="font-montserrat font-bold text-4xl md:text-5xl lg:text-6xl">About Us</h1>
+          <h1 className="font-montserrat font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">About Us</h1>
         </div>
       </section>
 
       {/* Main Content Section */}
       <section className="section-padding bg-cultured">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-6">
               <div>
@@ -299,9 +299,9 @@ const AboutPage = () => {
       {/* Statistics Section */}
       <section className="section-padding bg-cultured">
         <div className="container-custom">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             {/* Years Experience */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
                 17 <span className="text-2xl">+</span>
               </div>
@@ -309,7 +309,7 @@ const AboutPage = () => {
             </div>
 
             {/* Critical Care Years */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
                 8 <span className="text-2xl">+</span>
               </div>
@@ -317,7 +317,7 @@ const AboutPage = () => {
             </div>
 
             {/* Hospital Affiliations */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
                 3 <span className="text-2xl">+</span>
               </div>
@@ -325,7 +325,7 @@ const AboutPage = () => {
             </div>
 
             {/* Specialist Qualifications */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
                 12 <span className="text-2xl">+</span>
               </div>

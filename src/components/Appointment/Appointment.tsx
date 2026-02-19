@@ -103,7 +103,7 @@ const Appointment = () => {
     <section id="appointment" className="py-20 bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-montserrat font-bold text-oxford-blue-1 mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-montserrat font-bold text-oxford-blue-1 mb-4">
             Book Your Consultation
           </h2>
           <p className="text-sonic-silver text-lg max-w-2xl mx-auto font-lato">
@@ -115,7 +115,7 @@ const Appointment = () => {
           <div className="grid lg:grid-cols-2 gap-0">
             
             {/* Left Side - Doctor Info & Calendar */}
-            <div className="bg-cultured p-8 lg:p-12">
+            <div className="bg-cultured p-4 sm:p-6 lg:p-12">
               {/* Doctor Info */}
               <div className="flex items-center gap-4 mb-8">
                 <div className="relative">
@@ -258,7 +258,7 @@ const Appointment = () => {
             </div>
 
             {/* Right Side - Booking Form */}
-            <div className="p-8 lg:p-12">
+            <div className="p-4 sm:p-6 lg:p-12">
               <h4 className="font-montserrat font-bold text-oxford-blue-1 text-xl mb-6">Patient Information</h4>
               
               <form onSubmit={handleSubmit} className="space-y-6">

@@ -17,11 +17,11 @@ const WhyChooseUs = () => {
   return (
     <section id="why-choose-us" className="py-20 bg-white">
       <div className="container-custom">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Content Section */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-montserrat font-bold text-oxford-blue-1 leading-tight mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-montserrat font-bold text-oxford-blue-1 leading-tight mb-6">
                 Why Choose Navodaya for Your Respiratory Care?
               </h2>
             </div>

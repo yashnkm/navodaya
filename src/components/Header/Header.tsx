@@ -67,12 +67,6 @@ const Header = () => {
                 About Us
               </button>
               <button
-                onClick={() => handleNavigation('/testimonials')}
-                className="text-oxford-blue-1 hover:text-carolina-blue font-medium transition-colors duration-200"
-              >
-                Testimonials
-              </button>
-              <button
                 onClick={() => handleNavigation('/gallery')}
                 className="text-oxford-blue-1 hover:text-carolina-blue font-medium transition-colors duration-200"
               >
@@ -145,12 +139,6 @@ const Header = () => {
                     className="text-oxford-blue-1 hover:text-carolina-blue font-medium transition-colors text-left"
                   >
                     About Us
-                  </button>
-                  <button
-                    onClick={() => handleNavigation('/testimonials')}
-                    className="text-oxford-blue-1 hover:text-carolina-blue font-medium transition-colors text-left"
-                  >
-                    Testimonials
                   </button>
                   <button
                     onClick={() => handleNavigation('/gallery')}
