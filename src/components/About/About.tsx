@@ -16,7 +16,7 @@ const About = () => {
         </svg>
       ),
       title: "Critical Care Expert",
-      description: "8+ years of ICU experience with ventilator management and critical care"
+      description: "13+ years of ICU experience with ventilator management and critical care"
     },
     {
       icon: (
@@ -58,17 +58,17 @@ const About = () => {
 
             <div className="space-y-4">
               <p className="text-sonic-silver leading-relaxed">
-                Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with 17+ years
-                of experience. He completed his MBBS from MGM Medical College Aurangabad, DTCD from
-                Government Medical College Nagpur, and DNB in Respiratory Diseases from the prestigious
-                Jaslok Hospital Mumbai.
+                Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with 20+ years
+                of experience in pulmonology and 13+ years in critical care. He completed his MBBS from MGM Medical College Aurangabad, DTCD from
+                Government Medical College Nagpur, DNB in Respiratory Diseases from the prestigious
+                Jaslok Hospital Mumbai, and IDCCM in Critical Care from Deenanath Mangeshkar Hospital Pune.
               </p>
 
               <p className="text-sonic-silver leading-relaxed">
                 With extensive experience in critical care from Deenanath Mangeshkar Hospital Pune,
                 Dr. Telbhare specializes in diagnostic and therapeutic chest interventions. He currently
                 serves as Consultant Respiratory Physician at multiple leading hospitals in Pune including
-                Deenanath Mangeshkar Hospital, Chellaram Hospital, and Prayag Hospital.
+                Deenanath Mangeshkar Hospital and Chellaram Hospital.
               </p>
             </div>
 

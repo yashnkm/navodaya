@@ -82,13 +82,13 @@ const Hero = () => {
                 className="text-sm sm:text-base text-gray-300 mb-5 max-w-md mx-auto leading-relaxed opacity-0"
               >
                 Expert pulmonary care with Dr. Vishnudas Telbhare.
-                17+ years in asthma, COPD, sleep disorders & critical care.
+                20+ years in asthma, COPD, sleep disorders & 13+ years in critical care.
               </p>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto mb-6">
                 <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">17+</div>
+                  <div className="text-2xl font-bold text-teal-400 mb-0.5">20+</div>
                   <div className="text-xs text-gray-400">Years Exp.</div>
                 </div>
                 <div className="text-center opacity-0">
@@ -160,7 +160,7 @@ const Hero = () => {
                 className="text-xl text-gray-300 mb-8 max-w-xl leading-relaxed opacity-0"
               >
                 Experience expert pulmonary care with Dr. Vishnudas Telbhare.
-                17+ years of experience in asthma, COPD, sleep disorders, and critical care pulmonology.
+                20+ years of experience in pulmonology and 13+ years in critical care. Specialized in asthma, COPD, sleep disorders, and critical care pulmonology.
               </p>
 
               <div className="flex gap-4 mb-10 opacity-0">
@@ -186,7 +186,7 @@ const Hero = () => {
 
               <div className="grid grid-cols-3 gap-6 max-w-md">
                 <div className="text-center opacity-0">
-                  <div className="text-4xl font-bold text-teal-400 mb-1">17+</div>
+                  <div className="text-4xl font-bold text-teal-400 mb-1">20+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
                 <div className="text-center opacity-0">

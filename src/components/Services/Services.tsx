@@ -177,7 +177,7 @@ const Services = () => {
         'Severe pneumonia and ICU management.',
         'Post-pneumonia recovery and follow-up.'
       ],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80'
+      image: '/assets/images/pneumonia.jpg'
     },
     {
       id: 'lung-cancer',
@@ -233,21 +233,21 @@ const Services = () => {
         'CPAP titration studies.',
         'Detailed sleep report and analysis.'
       ],
-      image: 'https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&q=80'
+      image: '/assets/images/sleep-study.jpg'
     },
     {
       id: 'critical-care',
       icon: <CriticalCareIcon />,
       title: 'Critical Care Pulmonology',
       shortTitle: 'Critical Care',
-      description: 'Expert ICU ventilator management, respiratory failure treatment, and critical care services. Dr. Telbhare brings 8+ years of intensive care experience from Deenanath Mangeshkar Hospital.',
+      description: 'Expert ICU ventilator management, respiratory failure treatment, and critical care services. Dr. Telbhare brings 13+ years of intensive care experience from Deenanath Mangeshkar Hospital.',
       features: [
         'Ventilator management expertise.',
         'Respiratory failure treatment.',
         'Post-ICU pulmonary rehabilitation.',
         'Weaning protocols and recovery.'
       ],
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80'
+      image: '/assets/images/critical-care.jpg'
     }
   ];
 

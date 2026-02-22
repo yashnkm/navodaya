@@ -49,8 +49,8 @@ const AboutPage = () => {
                 </p>
 
                 <p className="text-sonic-silver leading-relaxed">
-                  Led by Dr. Vishnudas Telbhare, a highly experienced pulmonologist with 17+ years of clinical
-                  experience, we combine advanced diagnostic technology with compassionate care to help you
+                  Led by Dr. Vishnudas Telbhare, a highly experienced pulmonologist with 20+ years of clinical
+                  experience in pulmonology and 13+ years in critical care, we combine advanced diagnostic technology with compassionate care to help you
                   breathe better and live healthier.
                 </p>
 
@@ -102,9 +102,9 @@ const AboutPage = () => {
 
               <div className="space-y-4">
                 <p className="text-sonic-silver leading-relaxed">
-                  Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with over 17 years
-                  of experience in respiratory medicine. He completed his MBBS from MGM Medical College
-                  Aurangabad and pursued advanced training in chest diseases.
+                  Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with over 20 years
+                  of experience in pulmonology and 13+ years in critical care. He completed his MBBS from MGM Medical College
+                  Aurangabad, DTCD from GMC Nagpur, DNB in Respiratory Diseases from Jaslok Hospital Mumbai, and IDCCM in Critical Care from Deenanath Mangeshkar Hospital Pune.
                 </p>
 
                 <p className="text-sonic-silver leading-relaxed">
@@ -244,7 +244,7 @@ const AboutPage = () => {
                 Experienced Specialist
               </h4>
               <p className="text-sonic-silver text-sm">
-                17+ years of experience with DNB from prestigious Jaslok Hospital Mumbai
+                20+ years in pulmonology with DNB from Jaslok Hospital Mumbai & IDCCM from Deenanath Mangeshkar Hospital
               </p>
             </div>
 
@@ -274,7 +274,7 @@ const AboutPage = () => {
                 Critical Care Expert
               </h4>
               <p className="text-sonic-silver text-sm">
-                8+ years ICU experience with ventilator management expertise
+                13+ years ICU experience with ventilator management expertise
               </p>
             </div>
 
@@ -303,7 +303,7 @@ const AboutPage = () => {
             {/* Years Experience */}
             <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
-                17 <span className="text-2xl">+</span>
+                20 <span className="text-2xl">+</span>
               </div>
               <div className="text-oxford-blue-1 font-medium">Years Experience</div>
             </div>
@@ -311,7 +311,7 @@ const AboutPage = () => {
             {/* Critical Care Years */}
             <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
-                8 <span className="text-2xl">+</span>
+                13 <span className="text-2xl">+</span>
               </div>
               <div className="text-oxford-blue-1 font-medium">Years in Critical Care</div>
             </div>

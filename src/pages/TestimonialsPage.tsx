@@ -85,7 +85,7 @@ const TestimonialsPage = () => {
       name: "Prakash Jadhav",
       rating: 5,
       timeAgo: "a week ago",
-      review: "Every appointment was on time, and the spirometry tests were explained in detail. Dr. Telbhare's 17+ years of experience really shows in his confident diagnosis. We truly appreciate the professionalism.",
+      review: "Every appointment was on time, and the spirometry tests were explained in detail. Dr. Telbhare's 20+ years of experience really shows in his confident diagnosis. We truly appreciate the professionalism.",
       verified: true,
       hasResponse: true,
       category: "Punctuality",

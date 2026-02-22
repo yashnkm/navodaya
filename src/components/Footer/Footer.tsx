@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
 
                 <p className="text-gray-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
-                  Expert respiratory care with 17+ years of experience. Specialized in
+                  Expert respiratory care with 20+ years of experience in pulmonology and 13+ years in critical care. Specialized in
                   asthma, COPD, sleep disorders, and critical care pulmonology.
                 </p>
 
