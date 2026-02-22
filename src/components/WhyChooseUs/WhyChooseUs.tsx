@@ -2,7 +2,7 @@ const WhyChooseUs = () => {
   const features = [
     {
       title: "Expert Pulmonology Care",
-      description: "With 20+ years of experience in pulmonology and 13+ years in critical care, Dr. Vishnudas Telbhare delivers specialized respiratory care with precision and expertise. He holds a DNB in Respiratory Diseases from Jaslok Hospital Mumbai and IDCCM in Critical Care from Deenanath Mangeshkar Hospital Pune."
+      description: "With 18+ years of experience in pulmonology and 13+ years in critical care, Dr. Vishnudas Telbhare delivers specialized respiratory care with precision and expertise. He holds a DNB in Respiratory Diseases from Jaslok Hospital Mumbai and IDCCM in Critical Care from Deenanath Mangeshkar Hospital Pune."
     },
     {
       title: "Comprehensive Treatment Approach",

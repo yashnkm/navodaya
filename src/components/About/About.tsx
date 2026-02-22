@@ -58,7 +58,7 @@ const About = () => {
 
             <div className="space-y-4">
               <p className="text-sonic-silver leading-relaxed">
-                Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with 20+ years
+                Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with 18+ years
                 of experience in pulmonology and 13+ years in critical care. He completed his MBBS from MGM Medical College Aurangabad, DTCD from
                 Government Medical College Nagpur, DNB in Respiratory Diseases from the prestigious
                 Jaslok Hospital Mumbai, and IDCCM in Critical Care from Deenanath Mangeshkar Hospital Pune.

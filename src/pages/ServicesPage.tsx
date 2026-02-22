@@ -250,7 +250,7 @@ const ServicesPage = () => {
 
               <p className="text-teal-100 text-sm sm:text-lg leading-relaxed">
                 Whether you need diagnostic testing or treatment for a respiratory condition,
-                Dr. Vishnudas Telbhare is here to provide expert care with 20+ years of experience in pulmonology and 13+ years in critical care.
+                Dr. Vishnudas Telbhare is here to provide expert care with 18+ years of experience in pulmonology and 13+ years in critical care.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-2 sm:pt-4">

@@ -49,7 +49,7 @@ const AboutPage = () => {
                 </p>
 
                 <p className="text-sonic-silver leading-relaxed">
-                  Led by Dr. Vishnudas Telbhare, a highly experienced pulmonologist with 20+ years of clinical
+                  Led by Dr. Vishnudas Telbhare, a highly experienced pulmonologist with 18+ years of clinical
                   experience in pulmonology and 13+ years in critical care, we combine advanced diagnostic technology with compassionate care to help you
                   breathe better and live healthier.
                 </p>
@@ -102,7 +102,7 @@ const AboutPage = () => {
 
               <div className="space-y-4">
                 <p className="text-sonic-silver leading-relaxed">
-                  Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with over 20 years
+                  Dr. Vishnudas Telbhare is a highly skilled and dedicated pulmonologist with over 18 years
                   of experience in pulmonology and 13+ years in critical care. He completed his MBBS from MGM Medical College
                   Aurangabad, DTCD from GMC Nagpur, DNB in Respiratory Diseases from Jaslok Hospital Mumbai, and IDCCM in Critical Care from Deenanath Mangeshkar Hospital Pune.
                 </p>
@@ -244,7 +244,7 @@ const AboutPage = () => {
                 Experienced Specialist
               </h4>
               <p className="text-sonic-silver text-sm">
-                20+ years in pulmonology with DNB from Jaslok Hospital Mumbai & IDCCM from Deenanath Mangeshkar Hospital
+                18+ years in pulmonology with DNB from Jaslok Hospital Mumbai & IDCCM from Deenanath Mangeshkar Hospital
               </p>
             </div>
 
