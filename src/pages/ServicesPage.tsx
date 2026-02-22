@@ -162,11 +162,11 @@ const ServicesPage = () => {
 
       {/* Hero Section with Breadcrumb */}
       <section
-        className="relative py-16 sm:py-24 bg-gradient-to-r from-teal-700 to-teal-900"
+        className="relative pt-20 pb-12 sm:pt-28 sm:pb-20 bg-gradient-to-r from-teal-700 to-teal-900"
       >
         <div className="container-custom text-center text-white">
-          <nav className="mb-6">
-            <ol className="flex justify-center items-center space-x-2 text-sm">
+          <nav className="mb-4 sm:mb-6">
+            <ol className="flex justify-center items-center space-x-2 text-xs sm:text-sm">
               <li>
                 <a href="/" className="hover:text-teal-300 transition-colors">Home</a>
               </li>
@@ -179,7 +179,7 @@ const ServicesPage = () => {
             </ol>
           </nav>
           <h1 className="font-montserrat font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Our Services</h1>
-          <p className="mt-4 text-teal-100 text-lg max-w-2xl mx-auto">
+          <p className="mt-3 sm:mt-4 text-teal-100 text-sm sm:text-lg max-w-2xl mx-auto px-2">
             Comprehensive respiratory care by Dr. Vishnudas Telbhare
           </p>
         </div>
@@ -187,39 +187,46 @@ const ServicesPage = () => {
 
       <main>
         {/* All Services Section */}
-        <section className="section-padding bg-white">
+        <section className="py-8 sm:py-16 bg-white">
           <div className="container-custom">
             <div className="text-center mb-8 sm:mb-16">
               <h2 className="font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl text-oxford-blue-1 mb-4">
                 Comprehensive <span className="text-teal-600">Respiratory Care</span>
               </h2>
-              <div className="w-16 h-1 bg-teal-600 rounded-full mx-auto mb-6"></div>
+              <div className="w-16 h-1 bg-teal-600 rounded-full mx-auto mb-4 sm:mb-6"></div>
               <p className="text-sonic-silver text-sm sm:text-lg max-w-3xl mx-auto">
                 Advanced diagnostic testing and evidence-based treatment for all respiratory conditions
                 with personalized care plans tailored to your specific needs.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
               {allServices.map((service) => (
                 <div
                   key={service.id}
-                  className="bg-cultured p-4 sm:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+                  className="bg-cultured p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 group"
                 >
-                  <div className="text-teal-600 mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">
-                    {service.icon}
+                  <div className="flex items-start gap-3 sm:block">
+                    <div className="text-teal-600 mb-0 sm:mb-6 flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                      {service.icon}
+                    </div>
+                    <div className="sm:hidden">
+                      <h3 className="font-montserrat font-semibold text-base text-oxford-blue-1">
+                        {service.title}
+                      </h3>
+                    </div>
                   </div>
-                  <h3 className="font-montserrat font-semibold text-lg sm:text-xl text-oxford-blue-1 mb-3 sm:mb-4">
+                  <h3 className="hidden sm:block font-montserrat font-semibold text-xl text-oxford-blue-1 mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-sonic-silver leading-relaxed text-sm sm:text-base mb-4">
+                  <p className="text-sonic-silver leading-relaxed text-sm sm:text-base mb-3 sm:mb-4 mt-2 sm:mt-0">
                     {service.description}
                   </p>
                   {service.subServices && (
-                    <ul className="space-y-2">
+                    <ul className="space-y-1.5 sm:space-y-2">
                       {service.subServices.map((subService, index) => (
                         <li key={index} className="flex items-start gap-2 text-xs sm:text-sm text-sonic-silver">
-                          <svg className="w-4 h-4 text-teal-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-teal-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           {subService}
@@ -234,28 +241,28 @@ const ServicesPage = () => {
         </section>
 
         {/* Call to Action Section */}
-        <section className="section-padding bg-teal-700 text-white text-center">
+        <section className="py-10 sm:py-16 bg-teal-700 text-white text-center">
           <div className="container-custom">
-            <div className="max-w-3xl mx-auto space-y-6">
-              <h2 className="font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl">
+            <div className="max-w-3xl mx-auto space-y-4 sm:space-y-6">
+              <h2 className="font-montserrat font-bold text-xl sm:text-3xl md:text-4xl leading-tight">
                 Ready to Schedule Your <span className="text-teal-200">Consultation?</span>
               </h2>
 
-              <p className="text-teal-100 text-lg leading-relaxed">
+              <p className="text-teal-100 text-sm sm:text-lg leading-relaxed">
                 Whether you need diagnostic testing or treatment for a respiratory condition,
                 Dr. Vishnudas Telbhare is here to provide expert care with 17+ years of experience.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-2 sm:pt-4">
                 <a
                   href="/#appointment"
-                  className="bg-white text-teal-700 hover:bg-teal-50 px-8 py-3 rounded-lg font-medium transition-colors duration-200"
+                  className="bg-white text-teal-700 hover:bg-teal-50 px-6 sm:px-8 py-3 rounded-lg font-medium text-sm sm:text-base transition-colors duration-200"
                 >
                   Book Appointment
                 </a>
                 <a
                   href="tel:+917507468918"
-                  className="border border-white hover:bg-white hover:text-teal-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200"
+                  className="border border-white hover:bg-white hover:text-teal-700 text-white px-6 sm:px-8 py-3 rounded-lg font-medium text-sm sm:text-base transition-colors duration-200"
                 >
                   Call Now: +91 75074 68918
                 </a>
