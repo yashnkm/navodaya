@@ -213,7 +213,7 @@ const TestimonialsPage = () => {
                 <div className="text-teal-200 text-sm">Happy Patients</div>
               </div>
               <div>
-                <div className="text-4xl font-bold mb-2">17+</div>
+                <div className="text-4xl font-bold mb-2">18+</div>
                 <div className="text-teal-200 text-sm">Years Experience</div>
               </div>
               <div>
