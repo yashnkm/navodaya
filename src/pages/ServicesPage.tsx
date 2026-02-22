@@ -255,7 +255,9 @@ const ServicesPage = () => {
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-2 sm:pt-4">
                 <a
-                  href="/#appointment"
+                  href="https://wa.me/917507468918?text=Hi%20Navodaya%20Chest%20Care,%20I%20would%20like%20to%20book%20an%20appointment"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-white text-teal-700 hover:bg-teal-50 px-6 sm:px-8 py-3 rounded-lg font-medium text-sm sm:text-base transition-colors duration-200"
                 >
                   Book Appointment

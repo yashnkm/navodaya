@@ -13,6 +13,7 @@ const Router = () => {
   useEffect(() => {
     const handlePopState = () => {
       setCurrentPath(window.location.pathname);
+      window.scrollTo(0, 0);
     };
 
     window.addEventListener('popstate', handlePopState);
@@ -23,6 +24,7 @@ const Router = () => {
   const navigate = (path: string) => {
     window.history.pushState({}, '', path);
     setCurrentPath(path);
+    window.scrollTo(0, 0);
   };
 
   // Make navigate function globally available

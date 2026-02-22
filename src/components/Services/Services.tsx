@@ -418,7 +418,9 @@ const Services = () => {
 
               {/* CTA Button */}
               <a
-                href="#appointment"
+                href="https://wa.me/917507468918?text=Hi%20Navodaya%20Chest%20Care,%20I%20would%20like%20to%20book%20an%20appointment"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-teal-700 transition-all duration-200 shadow-md hover:shadow-lg"
               >
                 Book Schedule Now
