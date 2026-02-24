@@ -1,57 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { VitePWA } from 'vite-plugin-pwa'
 import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    VitePWA({
-      registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'assets/**/*'],
-      manifest: {
-        name: 'Navodaya Chest Care Clinic',
-        short_name: 'Navodaya Chest',
-        description: 'Expert respiratory care by Dr. Vishnudas Telbhare in Bavdhan, Pune',
-        theme_color: '#0D9488',
-        icons: [
-          {
-            src: 'favicon.svg',
-            sizes: '192x192',
-            type: 'image/svg+xml'
-          }
-        ]
-      },
-      workbox: {
-        maximumFileSizeToCacheInBytes: 25 * 1024 * 1024, // 25MB limit
-        globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,webp,svg}'],
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'google-fonts-cache',
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 365 // 365 days
-              }
-            }
-          },
-          {
-            urlPattern: /\.(png|jpg|jpeg|webp|svg|gif)$/i,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'images-cache',
-              expiration: {
-                maxEntries: 100,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
-              }
-            }
-          }
-        ]
-      }
-    })
   ],
   resolve: {
     alias: {
