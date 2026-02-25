@@ -13,7 +13,19 @@ const Appointment = () => {
   });
 
   const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  
+
+  // Dates when doctor is unavailable (YYYY-MM-DD)
+  const blockedDates = [
+    '2026-02-27',
+    '2026-02-28',
+    '2026-03-02',
+  ];
+
+  const isBlockedDate = (date: Date) => {
+    const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+    return blockedDates.includes(dateStr);
+  };
+
   // Generate hourly time slots from 6 PM to 9 PM
   const timeSlots = [
     "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM",
@@ -53,7 +65,8 @@ const Appointment = () => {
         day,
         isPast,
         isToday,
-        isWeekend: date.getDay() === 0 || date.getDay() === 4 // Sunday or Thursday (holidays)
+        isWeekend: date.getDay() === 0 || date.getDay() === 4, // Sunday or Thursday (holidays)
+        isBlocked: isBlockedDate(date)
       });
     }
     
@@ -179,7 +192,7 @@ const Appointment = () => {
                     }
 
                     const isSelected = selectedDate && dayData.date.toDateString() === selectedDate.toDateString();
-                    const isUnavailable = dayData.isPast || dayData.isWeekend;
+                    const isUnavailable = dayData.isPast || dayData.isWeekend || dayData.isBlocked;
 
                     return (
                       <button
@@ -199,7 +212,7 @@ const Appointment = () => {
                         `}
                       >
                         {dayData.day}
-                        {dayData.isWeekend && !dayData.isPast && (
+                        {(dayData.isWeekend || dayData.isBlocked) && !dayData.isPast && (
                           <div className="absolute -top-1 -right-1 w-2 h-2 bg-red-400 rounded-full"></div>
                         )}
                       </button>

@@ -86,18 +86,22 @@ const Hero = () => {
               </p>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto mb-6">
-                <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">18+</div>
-                  <div className="text-xs text-gray-400">Years Exp.</div>
+              <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto mb-6">
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10 opacity-0">
+                  <div className="text-xl font-bold text-teal-400">18+</div>
+                  <div className="text-[10px] text-gray-400">Years Experience</div>
                 </div>
-                <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">IDCCM</div>
-                  <div className="text-xs text-gray-400">Critical Care</div>
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10 opacity-0">
+                  <div className="text-xl font-bold text-teal-400">DTCD</div>
+                  <div className="text-[10px] text-gray-400">GMC Nagpur</div>
                 </div>
-                <div className="text-center opacity-0">
-                  <div className="text-2xl font-bold text-teal-400 mb-0.5">DNB</div>
-                  <div className="text-xs text-gray-400">Jaslok Hospital</div>
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10 opacity-0">
+                  <div className="text-xl font-bold text-teal-400">DNB</div>
+                  <div className="text-[10px] text-gray-400">Jaslok Hospital</div>
+                </div>
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10 opacity-0">
+                  <div className="text-xl font-bold text-teal-400">IDCCM</div>
+                  <div className="text-[10px] text-gray-400">Deenanath Mangeshkar</div>
                 </div>
               </div>
 
@@ -184,18 +188,22 @@ const Hero = () => {
                 </a>
               </div>
 
-              <div className="grid grid-cols-3 gap-6 max-w-md">
-                <div className="text-center opacity-0">
-                  <div className="text-4xl font-bold text-teal-400 mb-1">18+</div>
-                  <div className="text-sm text-gray-400">Years Experience</div>
+              <div className="grid grid-cols-4 gap-4 max-w-xl">
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-xl px-4 py-3 border border-white/10 opacity-0">
+                  <div className="text-3xl font-bold text-teal-400 mb-1">18+</div>
+                  <div className="text-xs text-gray-400">Years Experience</div>
                 </div>
-                <div className="text-center opacity-0">
-                  <div className="text-4xl font-bold text-teal-400 mb-1">IDCCM</div>
-                  <div className="text-sm text-gray-400">Critical Care</div>
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-xl px-4 py-3 border border-white/10 opacity-0">
+                  <div className="text-3xl font-bold text-teal-400 mb-1">DTCD</div>
+                  <div className="text-xs text-gray-400">GMC Nagpur</div>
                 </div>
-                <div className="text-center opacity-0">
-                  <div className="text-4xl font-bold text-teal-400 mb-1">DNB</div>
-                  <div className="text-sm text-gray-400">Jaslok Hospital</div>
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-xl px-4 py-3 border border-white/10 opacity-0">
+                  <div className="text-3xl font-bold text-teal-400 mb-1">DNB</div>
+                  <div className="text-xs text-gray-400">Jaslok Hospital</div>
+                </div>
+                <div className="text-center bg-white/5 backdrop-blur-sm rounded-xl px-4 py-3 border border-white/10 opacity-0">
+                  <div className="text-3xl font-bold text-teal-400 mb-1">IDCCM</div>
+                  <div className="text-xs text-gray-400">Deenanath Mangeshkar</div>
                 </div>
               </div>
             </div>
