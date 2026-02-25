@@ -327,7 +327,7 @@ const AboutPage = () => {
             {/* Specialist Qualifications */}
             <div className="bg-white p-5 sm:p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-4xl md:text-5xl font-montserrat font-bold text-teal-600 mb-2">
-                12 <span className="text-2xl">+</span>
+                14 <span className="text-2xl">+</span>
               </div>
               <div className="text-oxford-blue-1 font-medium">Years as Specialist</div>
             </div>
